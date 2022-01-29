@@ -1,4 +1,4 @@
-import logo from './assests/img/logo/bobp_logo.svg';
+import logo from './assests/images/bobp_logo.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome, faLaughWink, faCodeBranch } from '@fortawesome/free-solid-svg-icons'
 import { selectedDarkIconColor } from './util/color'
