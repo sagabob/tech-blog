@@ -1,0 +1,41 @@
+.mobile-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.12);
+    transform: translateY(-100%);
+    transition: all 0.3s;
+
+    //Active State
+    &.is-active {
+        transform: translateY(0);
+    }
+
+    //Navbar item
+    .navbar-item {
+        //Icon modifier
+        &.is-icon {
+            svg {                
+                color: $primary;
+            }
+        }
+
+        //Sidebar toggler
+        &.is-sidebar-toggler {
+            svg {
+                color: $muted-grey !important;
+            }
+        }
+    }
+
+    //Menu Hamburger
+    .navbar-burger:hover {
+        background-color: rgba(0, 0, 0, 0.02);
+    }
+
+    .navbar-burger span {
+        background-color: $dark-text;
+    }
+}

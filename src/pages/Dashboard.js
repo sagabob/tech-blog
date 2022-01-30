@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 
 const Dashboard = () => {
     return (
         <>
-            <div className="app-wrapper">
-                <div className="container">
+            <div className="container">
+                <div className="app-wrapper">
                     <h2>DASHBOARD</h2>
                 </div>
             </div>

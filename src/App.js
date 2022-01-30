@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import AppRoute  from './AppRoute';
 import { Routes, Route  } from "react-router-dom";
 import Home from './pages/Home';
@@ -12,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<AppRoute />}>
           <Route index element={<Home />} />
+          <Route path="home" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="dashboard" element={<Dashboard />} />
           <Route path="*" element={<NoMatch />} />

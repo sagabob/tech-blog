@@ -3,8 +3,8 @@ import React from 'react'
 const NoMatch = () => {
     return (
         <>
-            <div className="app-wrapper">
-                <div className="container">
+            <div className="container">
+                <div className="app-wrapper">
                     <h2>NO MATCH</h2>
                 </div>
             </div>
