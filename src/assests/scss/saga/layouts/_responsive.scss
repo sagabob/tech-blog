@@ -44,14 +44,16 @@
 @media (max-width: 767px) {
    
     //wrapper
-    .app-wrapper {
-        //width: calc(100% - 60px);
-        //margin-left: 60px;
+    .app-wrapper {       
         width: 100%;
         margin-left: 0;
 
         &.is-mobile-mode {
             margin-top: 10px;
         }
+    }
+
+    .main-sidebar {
+        transform: translateX(-100%) !important;        
     }
 }

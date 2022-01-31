@@ -34,67 +34,6 @@ body {
         text-transform: uppercase;
     }
 
-    //Error modifier
-    &.has-error {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: $white;
-
-        .error-wrapper {
-            position: relative;
-            width: 100%;
-            max-width: 640px;
-            margin: 0 auto;
-            text-align: center;
-
-            .error-code {
-                position: absolute;
-                top: 30%;
-                transform: translateY(-50%);
-                left: 0;
-                right: 0;
-                margin: 0 auto;
-                font-size: 24rem;
-                font-weight: bolder;
-                opacity: 0.08;
-            }
-
-            img {
-                position: relative;
-                display: block;
-                margin: 0 auto;
-                max-width: 420px;
-                z-index: 1;
-            }
-
-            h2,
-            p,
-            .button {
-                position: relative;
-                z-index: 1;
-            }
-
-            h2 {
-                font-family: "Montserrat", sans-serif;
-                font-weight: 600;
-                font-size: 1.4rem;
-                color: $dark-text;
-            }
-
-            p {
-                color: $muted-grey;
-                max-width: 410px;
-                margin: 0 auto;
-                padding: 0 16px;
-            }
-
-            .button {
-                margin-top: 16px;
-                height: 44px;
-                font-weight: 500;
-                min-width: 240px;
-            }
-        }
-    }
+ 
+   
 }

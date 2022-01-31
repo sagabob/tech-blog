@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     height: 100%;
-    width: 60px;
+    width: 50px;
     background-color: $white;
     box-shadow: 2px 0px 2px 0px rgba(0, 0, 0, 0.02);
     border-right: 1px solid $fade-grey;
@@ -11,8 +11,8 @@
     transition: all 0.3s;
         
     .sidebar-brand {
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -27,14 +27,14 @@
     }
 
     .sidebar-inner {
-        height: calc(100% - 60px);
+        height: calc(100% - 50px);
         width: 100%;
         position: relative;
 
         .icon-menu {
             li {
-                width: 60px;
-                height: 60px;
+                width: 50px;
+                height: 50px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -43,7 +43,7 @@
                 a {
                     display: block;
                     position: relative;
-                    max-height: 25px;
+                    max-height: 20px;
                     transform: rotate(0);
                     opacity: 1;
                     transition: all .3s;
