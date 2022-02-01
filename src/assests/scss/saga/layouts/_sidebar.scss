@@ -3,16 +3,16 @@
     top: 0;
     left: 0;
     height: 100%;
-    width: 50px;
+    width: 55px;
     background-color: $white;
     box-shadow: 2px 0px 2px 0px rgba(0, 0, 0, 0.02);
     border-right: 1px solid $fade-grey;
     z-index: 10;
     transition: all 0.3s;
-        
+
     .sidebar-brand {
-        width: 50px;
-        height: 50px;
+        width: 55px;
+        height: 55px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -33,20 +33,17 @@
 
         .icon-menu {
             li {
-                width: 50px;
-                height: 50px;
+                width: 55x;
+                height: 55px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 flex-direction: column;
 
                 a {
-                    display: block;
-                    position: relative;
-                    max-height: 20px;
-                    transform: rotate(0);
+                    display: block;                   
+                    max-height: 25px;
                     opacity: 1;
-                    transition: all .3s;
 
                     svg {
                         color: $title-grey;
@@ -55,22 +52,13 @@
                     }
 
                     //active icon state
-                    &:hover svg, &.is-active svg {
+                    &:hover svg,
+                    &.is-active svg {
                         color: $primary;
                     }
+                    
 
-                    //dot that informs that there are items inside the cart
                    
-                    //icon toggle states
-                    &.is-opened {
-                        transform: rotate(360deg);
-                        opacity: 0;
-                    }
-
-                    &.is-inactive {
-                        transform: rotate(-360deg);
-                        opacity: 0;
-                    }
                 }
             }
         }

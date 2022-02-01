@@ -1,56 +1,22 @@
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: portrait) {
-    //Main wrapper
-    .app-wrapper {
-        .is-tablet-landscape-padded {
-            margin-left: 5.33333% !important;
-        }
-    }
+ 
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-    //Main wrapper
-    .app-wrapper {
-        //Tablet Adjustments
-        .is-tablet-landscape-padded {
-            width: 100% !important;
-            margin: 0 !important;
-        }
-
-        .is-invoice-landscape-padded {
-            width: 100% !important;
-            margin: 0 !important;
-        }
-    }
+  
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-    //Main Sidebar
-    //Main Sidebar
-    .main-sidebar {
-        &.is-pushed-mobile {
-            transform: translateX(-100%) !important;
-        }
-        
-    }
-
-    //Shop main wrapper
-    .app-wrapper {
-        margin-top: 20px !important;
-        width: 100%;
-        margin-left: 0;
-    }
+  
 }
 
-@media (max-width: 767px) {
-   
+@media (max-width: 767px) {   
     //wrapper
     .app-wrapper {       
         width: 100%;
-        margin-left: 0;
-
-        &.is-mobile-mode {
-            margin-top: 10px;
-        }
+        margin-left: 0;  
+        min-height: calc(100vh - 50px);
+        margin-top: 50px;        
     }
 
     .main-sidebar {
