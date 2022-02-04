@@ -1,4 +1,4 @@
-import logo from './assests/images/bobp_logo.svg';
+import logo from './assests/images/logos/bobp_logo.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome, faLaughWink, faCodeBranch } from '@fortawesome/free-solid-svg-icons'
 import { selectedDarkIconColor } from './util/color'
@@ -30,7 +30,7 @@ function Navbar() {
             </div>
             <div className="main-sidebar is-hidden-touch">
                 <div className="sidebar-brand">
-                    <Link to="/"><img src={logo} alt="logo" /></Link>
+                    <Link to="/"><img src={logo} alt="Tdp-logo-main" /></Link>
                 </div>
                 <div className="sidebar-inner">
                     <ul className="icon-menu">
@@ -46,11 +46,9 @@ function Navbar() {
                     </ul>
                 </div>
             </div>
-
             <div >
                 <Outlet />
             </div>
-
         </>
     );
 }

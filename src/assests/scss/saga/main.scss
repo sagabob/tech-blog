@@ -1,13 +1,18 @@
-@import "base/theme-default";
-@import "base/base";
-@import "base/colors";
-@import "base/fonts";
+@import "abstracts/variables";
+@import "abstracts/brands";
 
 @import "../../../../node_modules/bulma/bulma.sass";
 
-@import "base/helpers";
+@import "abstracts/shadows";
+@import "abstracts/typography";
+@import "abstracts/animations";
+@import "abstracts/helpers";
+
+@import "components/avatar";
+@import "components/cards";
+
 @import "layouts/sidebar";
 @import "layouts/layout";
 @import "layouts/navbar";
-@import "layouts/user_profile";
+@import "pages/user_profile";
 @import "layouts/responsive";
