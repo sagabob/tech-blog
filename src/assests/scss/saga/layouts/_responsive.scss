@@ -1,25 +1,25 @@
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: portrait) {
+@media screen and (min-width: 1024px) and (max-width: 1366px)  {
  
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  
-}
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+@media screen and (min-width: 768px) and (max-width: 1024px)  {
   
-}
-
-@media (max-width: 767px) {   
-    //wrapper
     .app-wrapper {       
         width: 100%;
         margin-left: 0;  
         min-height: calc(100vh - 50px);
         margin-top: 50px;        
     }
+}
 
-    .main-sidebar {
-        transform: translateX(-100%) !important;        
+@media screen and (max-width: 767px) {     
+   
+    .app-wrapper {       
+        width: 100%;
+        margin-left: 0;  
+        min-height: calc(100vh - 50px);
+        margin-top: 50px;        
     }
+  
 }

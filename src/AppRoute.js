@@ -7,7 +7,7 @@ import { Outlet, Link } from "react-router-dom";
 function Navbar() {
     return (
         <>
-            <div className="navbar is-fixed-top is-hidden-desktop is-hidden-tablet">
+            <div className="navbar is-fixed-top is-hidden-desktop">
                 <div className="navbar-brand">
                     <a className="navbar-item" href="/home">
                         <img src={logo} alt="logo" />
@@ -18,17 +18,17 @@ function Navbar() {
                                 <Link to="/home"><FontAwesomeIcon icon={faHome} color={selectedDarkIconColor} /></Link>
                             </li>
                             <li>
-                                <Link to="/about"><FontAwesomeIcon icon={faLaughWink} color={selectedDarkIconColor}  /></Link>
+                                <Link to="/about"><FontAwesomeIcon icon={faLaughWink} color={selectedDarkIconColor} /></Link>
                             </li>
                             <li>
-                            <Link to="/dashboard"><FontAwesomeIcon icon={faCodeBranch} color={selectedDarkIconColor} /></Link>
-                        </li>
+                                <Link to="/dashboard"><FontAwesomeIcon icon={faCodeBranch} color={selectedDarkIconColor} /></Link>
+                            </li>
                         </ul>
                     </div>
                 </div>
 
             </div>
-            <div className="main-sidebar">
+            <div className="main-sidebar is-hidden-touch">
                 <div className="sidebar-brand">
                     <Link to="/"><img src={logo} alt="logo" /></Link>
                 </div>
