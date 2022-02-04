@@ -12,18 +12,18 @@ body {
     
 }
 
-.app-wrapper {
-    height: 100%;
+.app-wrapper {   
     min-height: calc(100vh);    
-    background: #e0c7c7;
-    transition: all 0.3s;
-      
-    //Background image modifier
+    background: $fade-grey;       
+    padding: 20px 0px;       
     &.has-background-image {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-    }
+    }    
+}
+
+.app-content{          
 
     h2 {
         font-size: 1.8rem;
@@ -31,6 +31,5 @@ body {
         font-weight: 400 !important;
         line-height: 1.2;
         text-transform: uppercase;
-    }
-   
+    }  
 }
