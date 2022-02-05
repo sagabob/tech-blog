@@ -187,10 +187,10 @@
                                     position: absolute;
                                     width: 10px;
                                     height: 10px;
-                                    background: lighten($primary, 10%);
+                                    background: lighten($primary, 25%);  
                                     border-radius: 50%;
                                     left: -40px;
-                                    border: 1px solid darken($fade-grey, 20%);
+                                    border: 1px solid lighten($primary, 25%);  
                                     top: 4px;
                                     
                                 }
@@ -199,10 +199,10 @@
                                     content: "";
                                     position: absolute;
                                     width: 15px;
-                                    height: 2px;
-                                    background-color: lighten($primary, 10%);                                   
+                                    height: 1px;
+                                    background-color: lighten($primary, 25%);                                   
                                     left: -38px;
-                                    border: 1px solid darken($fade-grey, 20%);
+                                    border: 1px dashed lighten($primary, 25%);     
                                     top: 8px;                                    
                                 }
 
