@@ -7,7 +7,7 @@ import { Outlet, Link } from "react-router-dom";
 function Navbar() {
     return (
         <>
-            <div className="navbar is-fixed-top is-hidden-desktop">
+            <div className="navbar has-shadow is-fixed-top is-hidden-desktop">
                 <div className="navbar-brand">
                     <a className="navbar-item" href="/home">
                         <img src={logo} alt="logo" />
@@ -28,7 +28,7 @@ function Navbar() {
                 </div>
 
             </div>
-            <div className="main-sidebar is-hidden-touch">
+            <div className="main-sidebar is-hidden-touch has-shadow">
                 <div className="sidebar-brand">
                     <Link to="/"><img src={logo} alt="Tdp-logo-main" /></Link>
                 </div>

@@ -49,7 +49,7 @@
         .profile-stat {
             display: flex;
             align-items: center;
-            color: $light-text;
+            color: $darker-text;
             font-family: $font;
 
             span {
@@ -95,17 +95,17 @@
 
     .profile-card {
         @extend .s-card;
-        padding: 30px;
+        padding: 20px;
 
         &:not(:last-child) {
             margin-bottom: 20px;
         }
 
         .profile-card-section {
-            padding-bottom: 30px;
+            padding-bottom: 10px;
 
             &:not(:last-child) {
-                margin-bottom: 10px;
+                margin-bottom: 20px;
                 border-bottom: 1px solid darken($fade-grey, 4%);
             }
 
@@ -167,7 +167,7 @@
                                 .key-description {
                                     font-family: $font;
                                     font-weight: 350;
-                                    color: $dark-text;
+                                    color: $darker-text;
                                     font-size: 0.95rem;
 
                                     ul {
