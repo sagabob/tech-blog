@@ -54,7 +54,7 @@ const About = () => {
                     <div className="section-content">
                       <div className="experience-wrapper">
                         <div className="experience-item">
-                          <img src="https://via.placeholder.com/150x150"  alt="" />
+                          <img src="https://via.placeholder.com/150x150" alt="" />
                           <div className="meta">
                             <span className="dark-inverted">.Id (informed decisions)</span>
                             <span>
@@ -63,6 +63,21 @@ const About = () => {
                               <span>&nbsp; Present</span>
                             </span>
                           </div>
+                        </div>
+                        <div>
+                          <ul className="steps is-vertical">
+                            <li>
+                              <span className="steps-marker"></span>
+                              <div className="steps-content">
+                                <p className="is-size-6">Senior Software Developer (Public Safety)</p>
+                                <span>
+                                  <span>Dec 2020 &nbsp;</span>
+                                  <span>&#8213;</span>
+                                  <span>&nbsp; Present</span>
+                                </span>
+                              </div>
+                            </li>
+                          </ul>
                         </div>
                       </div>
                     </div>
