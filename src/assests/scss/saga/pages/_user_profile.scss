@@ -29,13 +29,14 @@
 
         .title {
             margin-bottom: 6px;
+            color: $primary !important;
         }
 
-        p {
-            font-size: 1rem;
-            max-width: 540px;
+        .bio-description {
+            font-size: 0.95rem;
+            max-width: 550px;
             margin: 0 auto;
-            line-height: 1.3;
+            line-height: 1.2;
         }
     }
 
@@ -111,20 +112,20 @@
             .section-title {
                 display: flex;
                 align-items: center;
-                margin-bottom: 12px;
+                margin-bottom: 0.2rem;
 
                 h4 {
                     font-family: $font-alt;
                     font-weight: 600;
                     font-size: 0.8rem;
                     text-transform: uppercase;
-                    color: $dark-text;
+                    color: $primary;
                     margin-right: 6px;
                 }
             }
             .section-content {
                 .description {
-                    font-size: 0.95rem;
+                    font-size: 1.1rem;
                 }
 
                 .experience-wrapper {
@@ -132,7 +133,6 @@
                         display: flex;
                         align-items: center;
                         width: calc(50% - 16px);
-                        margin: 8px;
 
                         img {
                             display: block;
@@ -149,6 +149,72 @@
                             > span {
                                 font-family: $font;
                                 display: block;
+                            }
+                        }
+                    }
+
+                    .timeline {
+                        .outer {
+                            border-left: 1px dashed lighten($primary, 40%);
+                            margin-left: 23px;
+
+                            .timeline-card {
+                                position: relative;
+                                margin: 0 0 20px 25px;
+                                padding: 10px;
+                                max-width: 600px;
+
+                                .key-description {
+                                    font-family: $font;
+                                    font-weight: 350;
+                                    color: $dark-text;
+                                    font-size: 0.95rem;
+
+                                    ul {
+                                        list-style-type: disc;
+                                        padding: 0.5rem 1rem;
+                                    }
+                                }
+
+                                .subtitle {
+                                    position: relative;
+                                    margin-bottom: 0.1rem;
+                                    border-left: 1px;
+                                }
+
+                                .subtitle::before {
+                                    content: "";
+                                    position: absolute;
+                                    width: 10px;
+                                    height: 10px;
+                                    background: lighten($primary, 10%);
+                                    border-radius: 50%;
+                                    left: -40px;
+                                    border: 1px solid darken($fade-grey, 20%);
+                                    top: 4px;
+                                    
+                                }
+
+                                .subtitle::after {
+                                    content: "";
+                                    position: absolute;
+                                    width: 15px;
+                                    height: 2px;
+                                    background-color: lighten($primary, 10%);                                   
+                                    left: -38px;
+                                    border: 1px solid darken($fade-grey, 20%);
+                                    top: 8px;                                    
+                                }
+
+                                .timeperiod,
+                                .location-description {
+                                    margin-bottom: 0.1rem;
+
+                                    span {
+                                        font-size: 0.95rem;
+                                        padding-right: 0.5rem;                                        
+                                    }
+                                }
                             }
                         }
                     }

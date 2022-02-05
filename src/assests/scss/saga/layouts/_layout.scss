@@ -8,19 +8,13 @@ body {
     height: 100%;
     width: 100%;
     overflow: hidden;
-    background: #ededed;
-    
+    background: $fade-grey;    
 }
 
 .app-wrapper {   
     min-height: calc(100vh);    
     background: $background-default !important;       
-    padding: 11px 20px;       
-    &.has-background-image {
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }    
+    padding: 12px 20px;    
 }
 
 .app-content{          
@@ -31,5 +25,6 @@ body {
         font-weight: 400 !important;
         line-height: 1.2;
         text-transform: uppercase;
+        color:$primary;
     }  
 }
