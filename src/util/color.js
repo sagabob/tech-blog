@@ -3,4 +3,9 @@ const ratingColor = "#f5f569"
 const ratingEmptyColor = "#e5e4e2"
 const selectedLightColor = "#999"
 const selectedPrimaryColor = "#671cc9"
-export { selectedDarkIconColor, ratingColor, ratingEmptyColor, selectedLightColor, selectedPrimaryColor } 
+
+const metricGoodColor="#5074fb"
+const metricTopColor="#06d6a0"
+const metricMediumColor ="#cadf6b"
+
+export { selectedDarkIconColor, ratingColor, ratingEmptyColor, selectedLightColor, selectedPrimaryColor,metricGoodColor,metricTopColor,metricMediumColor } 

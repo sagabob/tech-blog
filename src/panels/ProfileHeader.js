@@ -12,7 +12,7 @@ const ProfileHeader = () => {
                 <img className="badge" src="https://via.placeholder.com/150x150" alt="" />
             </div>
             <h3 className="title is-4 is-narrow is-thin no-bottom-margin">Bob Pham</h3>
-            <p className="bio-description">
+            <p className="bio-introduction">
                 Hey everyone, I'm a full-stack developer. I’m interested in software architechture, frontend frameworks<br />
                 and containers. I’m currently learning python and machine learning.
             </p>
@@ -24,7 +24,7 @@ const ProfileHeader = () => {
                 <div class="separator"></div>
                 <div className="profile-stat">
                     <FontAwesomeIcon icon={faCodeBranch} color={selectedPrimaryColor} />
-                    <span>78 Projects</span>
+                    <span>18 Projects</span>
                 </div>
                 <div className="separator"></div>
                 <div className="socials">

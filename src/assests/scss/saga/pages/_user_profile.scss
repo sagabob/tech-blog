@@ -32,7 +32,7 @@
             color: $primary !important;
         }
 
-        .bio-description {
+        .bio-introduction {
             font-size: 0.95rem;
             max-width: 550px;
             margin: 0 auto;
@@ -91,6 +91,7 @@
 }
 
 .profile-body {
+    margin-top: 20px;
     padding: 10px 0 10px 0;
 
     .profile-card {
@@ -117,14 +118,15 @@
                 h4 {
                     font-family: $font-alt;
                     font-weight: 600;
-                    font-size: 0.8rem;
+                    font-size: 1rem;
                     text-transform: uppercase;
                     color: $primary;
                     margin-right: 6px;
+                    margin-bottom: 4px;
                 }
             }
             .section-content {
-                .description {
+                .bio-description {
                     font-size: 1.1rem;
                 }
 
@@ -132,7 +134,7 @@
                     .experience-item {
                         display: flex;
                         align-items: center;
-                        width: calc(50% - 16px);
+                        width: calc(100% - 50px);                       
 
                         img {
                             display: block;
@@ -158,8 +160,7 @@
                             border-left: 1px dashed lighten($primary, 40%);
                             margin-left: 23px;
 
-                            .timeline-card {
-                                position: relative;
+                            .timeline-card {                               
                                 margin: 0 0 20px 25px;
                                 padding: 10px;
                                 max-width: 600px;
@@ -172,7 +173,7 @@
 
                                     ul {
                                         list-style-type: disc;
-                                        padding: 0.5rem 1rem;
+                                        padding: 0.5rem 1.5rem;
                                     }
                                 }
 
@@ -187,12 +188,11 @@
                                     position: absolute;
                                     width: 10px;
                                     height: 10px;
-                                    background: lighten($primary, 25%);  
+                                    background: lighten($primary, 25%);
                                     border-radius: 50%;
                                     left: -40px;
-                                    border: 1px solid lighten($primary, 25%);  
+                                    border: 1px solid lighten($primary, 25%);
                                     top: 4px;
-                                    
                                 }
 
                                 .subtitle::after {
@@ -200,10 +200,10 @@
                                     position: absolute;
                                     width: 15px;
                                     height: 1px;
-                                    background-color: lighten($primary, 25%);                                   
+                                    background-color: lighten($primary, 25%);
                                     left: -38px;
-                                    border: 1px dashed lighten($primary, 25%);     
-                                    top: 8px;                                    
+                                    border: 1px dashed lighten($primary, 25%);
+                                    top: 8px;
                                 }
 
                                 .timeperiod,
@@ -212,7 +212,7 @@
 
                                     span {
                                         font-size: 0.95rem;
-                                        padding-right: 0.5rem;                                        
+                                        padding-right: 0.5rem;
                                     }
                                 }
                             }

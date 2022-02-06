@@ -85,7 +85,7 @@ const Introduction = () => {
                                         <div className="key-description">
                                             <ul >
                                                 <li>Handle software release management process, work as release manager.</li>
-                                                <li>Work as Devops manager, migrate TFS code to Azure DevOps, setting up build/release pipelines.</li>
+                                                <li>Work as Devops engineer, migrate TFS code to Azure DevOps, setting up build/release pipelines.</li>
                                                 <li>Development & coordinate with other developers, testers, implementers and release manager.</li>
                                             </ul>
                                         </div>
@@ -146,7 +146,7 @@ const Introduction = () => {
                                                 <li>Develop/extend features for the company's accounting software.</li>
                                                 <li>Perform integration testing activities.</li>
                                                 <li>Provide technical support to clients.</li>
-                                                <li>Perform data migration to the Cortell software for clients.</li>
+                                                <li>Perform data migration on the Cortell software for clients.</li>
                                             </ul>
                                         </div>
                                     </div>
