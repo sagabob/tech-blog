@@ -134,7 +134,7 @@
                     .experience-item {
                         display: flex;
                         align-items: center;
-                        width: calc(100% - 50px);                       
+                        width: calc(100% - 50px);
 
                         img {
                             display: block;
@@ -151,6 +151,10 @@
                             > span {
                                 font-family: $font;
                                 display: block;
+
+                                span{
+                                    padding-right: 0.5rem;
+                                }                                
                             }
                         }
                     }
@@ -160,7 +164,7 @@
                             border-left: 1px dashed lighten($primary, 40%);
                             margin-left: 23px;
 
-                            .timeline-card {                               
+                            .timeline-card {
                                 margin: 0 0 20px 25px;
                                 padding: 10px;
                                 max-width: 600px;
@@ -223,3 +227,5 @@
         }
     }
 }
+
+

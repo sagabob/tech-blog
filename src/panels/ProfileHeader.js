@@ -17,11 +17,11 @@ const ProfileHeader = () => {
                 and containers. I’m currently learning python and machine learning.
             </p>
             <div className="profile-stats">
-                <div class="profile-stat">
+                <div className="profile-stat">
                     <FontAwesomeIcon icon={faUsers} color={selectedPrimaryColor} />
                     <span>50+ Relations</span>
                 </div>
-                <div class="separator"></div>
+                <div className="separator"></div>
                 <div className="profile-stat">
                     <FontAwesomeIcon icon={faCodeBranch} color={selectedPrimaryColor} />
                     <span>18 Projects</span>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
-import {metricGoodColor,metricTopColor,metricMediumColor} from '../util/color'
+import { metricGoodColor, metricTopColor } from '../util/color'
 
 const SkillPanel = () => {
     return <>
@@ -72,7 +72,7 @@ const SkillPanel = () => {
                             </div>
                             <div className="skill-notes">
                                 <ul >
-                                    <li>Part of daily work for years, primarily use in MSSQL.</li>                                    
+                                    <li>Part of daily work for years, primarily use in MSSQL.</li>
                                 </ul>
                             </div>
                         </div>
@@ -93,8 +93,8 @@ const SkillPanel = () => {
                             <div className="skill-notes">
                                 <ul >
                                     <li>Part of daily work for the last 2+ years.</li>
-                                    <li>All the work on data analysis, wrangling, and machine learning.</li>    
-                                    <li>Will use Python on WebFrameworks soon.</li>                               
+                                    <li>All the work on data analysis, wrangling, and machine learning.</li>
+                                    <li>Will use Python on WebFrameworks soon.</li>
                                 </ul>
                             </div>
                         </div>
@@ -115,7 +115,7 @@ const SkillPanel = () => {
                             <div className="skill-notes">
                                 <ul >
                                     <li>Part of daily work for years.</li>
-                                    <li>Solid understanding of the languages, hand-son experience in developing many applications.</li>                                   
+                                    <li>Solid understanding of the languages, hand-son experience in developing many applications.</li>
                                 </ul>
                             </div>
                         </div>
@@ -124,10 +124,33 @@ const SkillPanel = () => {
             </div>
             <div className="profile-card-section">
                 <div className="section-title">
-                    <h4>Frameworks/Tools</h4>
+                    <h4>Frameworks / Tools</h4>
                 </div>
                 <div className="section-content">
                     <div className="skill-wrapper">
+                        <div className="skill-item-wrapper">
+                            <div className="skill-item">
+                                <div className="skill-metric">
+                                    <CircularProgressbar value={91} text={`${91}`} styles={buildStyles({
+                                        textSize: `30px`,
+                                        pathColor: `${metricTopColor}`,
+                                        textColor: `#040508`
+                                    })} />
+                                </div>
+                                <div className="meta">
+                                    <span className="dark-inverted">ASP.NET MVC/Web API/EF</span>
+                                    <span className="skill-description">7+ years of experience </span>
+                                </div>
+                            </div>
+                            <div className="skill-notes">
+                                <ul >
+                                    <li>Part of daily work for years.</li>
+                                    <li>Solid & advanced understanding of the stack from aspects (design patterns/architechture/development/deployment)</li>
+                                    <li>Hand-son experience in using the stack to develop many business applications.</li>
+                                    <li>Currently work on DotNet Framework 4.6 & DotNet Core 3.1, will upgrade to 5 soon.</li>
+                                </ul>
+                            </div>
+                        </div>
                         <div className="skill-item-wrapper">
                             <div className="skill-item">
                                 <div className="skill-metric">
@@ -146,32 +169,12 @@ const SkillPanel = () => {
                                 <ul >
                                     <li>Part of daily work for the last 5+ years.</li>
                                     <li>Solid understanding, hands-on experience in implementing many applications.</li>
-                                    <li>Also work on other React frameworks <strong>Gastby and Nextjs</strong>.</li>
+                                    <li>Also work closely with other React frameworks <strong>Gastby and Nextjs</strong>.</li>
+                                    <li>Hands-on experience in using its common state management libraries such as Redux</li>
                                 </ul>
                             </div>
                         </div>
-                        <div className="skill-item-wrapper">
-                            <div className="skill-item">
-                                <div className="skill-metric">
-                                    <CircularProgressbar value={91} text={`${91}`} styles={buildStyles({
-                                        textSize: `30px`,
-                                        pathColor: `${metricTopColor}`,
-                                        textColor: `#040508`
-                                    })} />
-                                </div>
-                                <div className="meta">
-                                    <span className="dark-inverted">ASP.NET MVC/API/EF</span>
-                                    <span className="skill-description">7+ years of experience </span>
-                                </div>
-                            </div>
-                            <div className="skill-notes">
-                                <ul >
-                                    <li>Part of daily work for years.</li>
-                                    <li>Solid & advanced understanding of the frameworks, hand-son experience in developing many business applications.</li>
-                                    <li>Currently work on DotNet Framework 4.6 & DotNet Core 3.1, will upgrade to 5 soon.</li>
-                                </ul>
-                            </div>
-                        </div> 
+
                         <div className="skill-item-wrapper">
                             <div className="skill-item">
                                 <div className="skill-metric">
@@ -188,11 +191,10 @@ const SkillPanel = () => {
                             </div>
                             <div className="skill-notes">
                                 <ul >
-                                    <li>Part of daily work for years.</li>
-                                    <li>Solid understanding of the tool, hand-son experience in using the Nodejs in developing many Nodejs related applications.</li>                                    
+                                    <li>Solid understanding of the tool, hand-son experience in using the Nodejs in developing many Nodejs related applications.</li>
                                 </ul>
                             </div>
-                        </div>   
+                        </div>
                         <div className="skill-item-wrapper">
                             <div className="skill-item">
                                 <div className="skill-metric">
@@ -210,10 +212,10 @@ const SkillPanel = () => {
                             <div className="skill-notes">
                                 <ul >
                                     <li>Part of daily work for years.</li>
-                                    <li>Solid & advanced understanding of the tools, hand-son experience in using the tools to developing many business applications (use GraphQl connection)</li>                                    
+                                    <li>Solid & advanced understanding of the tools, hand-son experience in using the tools to developing many business applications (use GraphQl connection)</li>
                                 </ul>
                             </div>
-                        </div>                           
+                        </div>
                     </div>
                 </div>
             </div>

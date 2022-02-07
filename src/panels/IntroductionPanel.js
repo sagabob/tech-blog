@@ -1,5 +1,4 @@
 import React from 'react';
-
 const Introduction = () => {
     return <>
 
@@ -25,9 +24,9 @@ const Introduction = () => {
                                 <div className="meta">
                                     <span className="dark-inverted">.id (informed decisions)</span>
                                     <span >
-                                        <span>Full-time &nbsp;</span>
+                                        <span>Full-time</span>
                                         <span>&#8213;</span>
-                                        <span>&nbsp; 1 yrs 3 mos</span>
+                                        <span>1 yrs 3 mos</span>
                                     </span>
                                 </div>
                             </div>
@@ -61,9 +60,9 @@ const Introduction = () => {
                                 <div className="meta">
                                     <span className="dark-inverted">Hexagon Safety & Infrastructure</span>
                                     <span >
-                                        <span>Full-time &nbsp;</span>
+                                        <span>Full-time</span>
                                         <span>&#8213;</span>
-                                        <span>&nbsp; 7 yrs 5 mos</span>
+                                        <span>7 yrs 5 mos</span>
                                     </span>
                                 </div>
                             </div>
@@ -121,9 +120,9 @@ const Introduction = () => {
                                 <div className="meta">
                                     <span className="dark-inverted">Cortell</span>
                                     <span >
-                                        <span>Full-time &nbsp;</span>
+                                        <span>Full-time</span>
                                         <span>&#8213;</span>
-                                        <span>&nbsp; 1 yrs 6 mos</span>
+                                        <span>1 yrs 6 mos</span>
                                     </span>
                                 </div>
                             </div>
@@ -159,9 +158,9 @@ const Introduction = () => {
                                 <div className="meta">
                                     <span className="dark-inverted">Vina Web</span>
                                     <span >
-                                        <span>Full-time &nbsp;</span>
+                                        <span>Full-time</span>
                                         <span>&#8213;</span>
-                                        <span>&nbsp; 4 yrs</span>
+                                        <span>4 yrs</span>
                                     </span>
                                 </div>
                             </div>
