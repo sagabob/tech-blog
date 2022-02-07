@@ -8,8 +8,8 @@ const ProfileHeader = () => {
     return <>
         <div className="profile-header has-text-centered">
             <div className="h-avatar is-xl">
-                <img className="avatar" src="https://via.placeholder.com/150x150" />
-                <img className="badge" src="https://via.placeholder.com/150x150" alt="" />
+                <img className="avatar" src="https://via.placeholder.com/150x150" alt="personal-logo"/>
+                <img className="badge" src="https://via.placeholder.com/150x150" alt="location" />
             </div>
             <h3 className="title is-4 is-narrow is-thin no-bottom-margin">Bob Pham</h3>
             <p className="bio-introduction">

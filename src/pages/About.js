@@ -1,63 +1,32 @@
-import React, { useState, useEffect, useCallback } from 'react'
+import React, { useState, useContext } from 'react'
 import IntroductionPanel from '../panels/IntroductionPanel'
 import ProfileHeader from '../panels/ProfileHeader'
 import SkillPanel from '../panels/SkillPanel'
 import HobbyPanel from '../panels/HobbyPanel'
-import styled, {css} from 'styled-components'
-
-
-const TabTop = 260;
-const MobileSzie = 1024;
+import { TabContainer } from '../styles/container-styles'
+import AppContext from '../AppContext'
+import { IsDesktop } from '../util/constant'
+import { TabOffsetFromTop } from '../util/constant'
 
 const About = () => {
 
   const [tabActive, setTabActive] = useState(0);
-  const [isMobile, setMobile] = useState(false);
-  const [isTabSticky, setTabSticky] = useState(false);
 
-  useEffect(() => {
-    window.addEventListener('resize', handleWindowSizeChange);
-    window.addEventListener("scroll", handleTabSticky);
-    return () => {
-      window.removeEventListener("scroll", handleTabSticky);
-      window.removeEventListener('resize', handleWindowSizeChange);
-    };
-  }, []);
+  const { screenSizeMode, scrollValue } = useContext(AppContext);
 
-  const handleWindowSizeChange = () => {
-    if (window.innerWidth > MobileSzie)
-      setMobile(false);
-    else
-      setMobile(true);
-  };
-
-  const handleTabSticky = () => {
-    
-    const scrollTop = window.scrollY;
-    
-    if (scrollTop >= TabTop) {
-      setTabSticky(true);
-    }
-    else {
-      setTabSticky(false);
-    }
-  };
-
-  const TabContainer = styled.div` 
-     display: ${props => props.isActive ? "block" : "none"};  
-  `;
 
   const stickyTabStyle = {
-    "position":"fixed",
-    "top": isMobile? "47px": "0px",   
+    "position": "fixed",
+    "top": screenSizeMode != IsDesktop ? "47px" : "0px",
     "left": "0px",
-    "width": "100vw",    
+    "width": "100vw",
     "zIndex": 25,
-    "backgroundColor":"#77d2f3"
+    "backgroundColor": "#77d2f3"
   };
 
-  const appliedTabStyle = isTabSticky? stickyTabStyle:{};
-  const appliedTabClassName = isTabSticky? "panel" : "panel is-shadowless is-primary half-bottom-margin";
+  const isTabSticky = (scrollValue > TabOffsetFromTop)
+  const appliedTabStyle = isTabSticky ? stickyTabStyle : {};
+  const appliedTabClassName = isTabSticky ? "panel" : "panel is-shadowless is-primary half-bottom-margin";
 
   return (
     <>
