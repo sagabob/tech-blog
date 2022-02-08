@@ -1,0 +1,21 @@
+{
+    "introduction": [
+        "Hello everyone, I'm a full-stack developer with 12+ year experience, demonstrated history in software industry.",
+        "Passionate about new technologies, constantly keep myself updated and enjoy working in a team."
+    ],
+    "stat":{
+        "connection": "50+ Relations",
+        "projects": "18 Projects"
+    },
+    "links": {
+        "linkedin": "https://www.linkedin.com/in/bob-pham-93937973/",
+        "github" : "https://github.com/sagabob/",
+        "codepen": "https://codepen.io/b_pham/"
+    },
+    "experience":{
+        "technical_description": {
+            "description": "",
+            "highlights": []
+        }
+    }
+}
