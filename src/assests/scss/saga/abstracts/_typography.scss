@@ -66,7 +66,7 @@ $font-alt: "Montserrat", sans-serif;
 p {
   font-family: $font;
   font-weight: 300;
-  color: $light-text;
+  color: $dark-text;
 
   &.white-text {
     color: $white;
@@ -186,4 +186,8 @@ body {
 
 .rem-100 {
   font-size: 1rem;
+}
+
+.half-bottom-margin{
+  margin-bottom: 0.5rem !important;
 }
