@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/my-tech-blog/static/css/main.139d8cc1.css",
+    "main.js": "/my-tech-blog/static/js/main.16ae9642.js",
+    "static/js/787.3dc1ad41.chunk.js": "/my-tech-blog/static/js/787.3dc1ad41.chunk.js",
+    "static/media/bobp_logo.svg": "/my-tech-blog/static/media/bobp_logo.56f7434ded6baf355df5b946e09bcdf2.svg",
+    "index.html": "/my-tech-blog/index.html",
+    "main.139d8cc1.css.map": "/my-tech-blog/static/css/main.139d8cc1.css.map",
+    "main.16ae9642.js.map": "/my-tech-blog/static/js/main.16ae9642.js.map",
+    "787.3dc1ad41.chunk.js.map": "/my-tech-blog/static/js/787.3dc1ad41.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.139d8cc1.css",
+    "static/js/main.16ae9642.js"
+  ]
+}
