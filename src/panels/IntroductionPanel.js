@@ -8,8 +8,9 @@ const Introduction = () => {
                     <h4>About Me</h4>
                 </div>
                 <div className="section-content">
-                    <p className="description">A full-stack developer with 12+ year experience, demonstrated history in Geospatial software industry.
-                        I'm passionate about new technologies and constantly keep myself updated, enjoy working in a team. </p>
+                    <p className="bio-description">
+
+                    </p>
                 </div>
             </div>
             <div className="profile-card-section">

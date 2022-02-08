@@ -12,9 +12,6 @@
             max-width: 300px;
         }
 
-        .h-avatar {
-            margin: 0 auto 12px auto;
-        }
         .avatar {
             width: 100px;
             height: 100px;
@@ -26,18 +23,20 @@
             height: 34px;
             width: 34px;
         }
+    }
 
-        .title {
-            margin-bottom: 6px;
-            color: $primary !important;
-        }
+    .title {
+        margin-bottom: 6px;
+        color: $primary !important;
+    }
 
-        .bio-introduction {
-            font-size: 0.95rem;
-            max-width: 550px;
-            margin: 0 auto;
-            line-height: 1.2;
-        }
+    .bio-introduction {
+        font-size: 0.97rem;
+        max-width: 700px;
+        margin: 0 auto;
+        line-height: 1.5;
+        color: $dark-lite-text  !important;
+        font-weight: 400;
     }
 
     .profile-stats {
@@ -152,9 +151,9 @@
                                 font-family: $font;
                                 display: block;
 
-                                span{
+                                span {
                                     padding-right: 0.5rem;
-                                }                                
+                                }
                             }
                         }
                     }
@@ -227,5 +226,3 @@
         }
     }
 }
-
-

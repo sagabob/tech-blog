@@ -2,7 +2,7 @@ import logo from './assests/images/logos/bobp_logo.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome, faLaughWink, faCodeBranch } from '@fortawesome/free-solid-svg-icons'
 import { selectedDarkIconColor } from './util/color'
-import { Outlet, Link } from "react-router-dom";
+import { Outlet,  NavLink } from "react-router-dom";
 
 function Navbar() {
     return (
@@ -15,13 +15,13 @@ function Navbar() {
                     <div className="lite-nav-bar">
                         <ul className="icon-menu">
                             <li>
-                                <Link to="/home"><FontAwesomeIcon icon={faHome} color={selectedDarkIconColor} /></Link>
+                                <NavLink to="/home" className={({ isActive }) => (isActive? 'is-active': "")}><FontAwesomeIcon icon={faHome} color={selectedDarkIconColor} /></NavLink>
                             </li>
                             <li>
-                                <Link to="/about"><FontAwesomeIcon icon={faLaughWink} color={selectedDarkIconColor} /></Link>
+                                <NavLink to="/about" className={({ isActive }) => (isActive? 'is-active': "")}><FontAwesomeIcon icon={faLaughWink} color={selectedDarkIconColor} /></NavLink>
                             </li>
                             <li>
-                                <Link to="/dashboard"><FontAwesomeIcon icon={faCodeBranch} color={selectedDarkIconColor} /></Link>
+                                <NavLink to="/dashboard" className={({ isActive }) => (isActive? 'is-active': "")}><FontAwesomeIcon icon={faCodeBranch} color={selectedDarkIconColor} /></NavLink>
                             </li>
                         </ul>
                     </div>
@@ -30,18 +30,18 @@ function Navbar() {
             </div>
             <div className="main-sidebar is-hidden-touch has-shadow">
                 <div className="sidebar-brand">
-                    <Link to="/"><img src={logo} alt="Tdp-logo-main" /></Link>
+                    <NavLink to="/"><img src={logo} alt="Tdp-logo-main" /></NavLink>
                 </div>
                 <div className="sidebar-inner">
                     <ul className="icon-menu">
                         <li>
-                            <Link to="/home"><FontAwesomeIcon icon={faHome} color={selectedDarkIconColor} /></Link>
+                            <NavLink to="/home"  className={({ isActive }) => (isActive? 'is-active': "")}><FontAwesomeIcon icon={faHome} color={selectedDarkIconColor} /></NavLink>
                         </li>
                         <li>
-                            <Link to="/about"><FontAwesomeIcon icon={faLaughWink} color={selectedDarkIconColor} /></Link>
+                            <NavLink to="/about" className={({ isActive }) => (isActive? 'is-active': "")}><FontAwesomeIcon icon={faLaughWink} color={selectedDarkIconColor} /></NavLink>
                         </li>
                         <li>
-                            <Link to="/dashboard"><FontAwesomeIcon icon={faCodeBranch} color={selectedDarkIconColor} /></Link>
+                            <NavLink to="/dashboard" className={({ isActive }) => (isActive? 'is-active': "")}><FontAwesomeIcon icon={faCodeBranch} color={selectedDarkIconColor} /></NavLink>
                         </li>
                     </ul>
                 </div>
