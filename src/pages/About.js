@@ -60,6 +60,9 @@ const About = () => {
                   </TabContainer>
                 </div>
               </div>
+              <div>
+                
+              </div>
             </div>
           </div>
         </div>
