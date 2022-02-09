@@ -2,7 +2,7 @@ import React from 'react'
 import profileData from '../content/profile.json';
 import WorksplaceComp from '../components/WorkplaceComp';
 
-const Introduction = () => {
+const ExperiencePanel = () => {
     return <>
 
         <div className="profile-card">
@@ -38,4 +38,4 @@ const Introduction = () => {
     </>;
 };
 
-export default Introduction;
+export default ExperiencePanel;

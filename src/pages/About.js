@@ -1,5 +1,5 @@
 import React, { useState, useContext } from 'react'
-import IntroductionPanel from '../panels/IntroductionPanel'
+import ExperiencePanel from '../panels/ExperiencePanel'
 import ProfileHeader from '../panels/ProfileHeader'
 import SkillPanel from '../panels/SkillPanel'
 import HobbyPanel from '../panels/HobbyPanel'
@@ -17,7 +17,7 @@ const About = () => {
 
   const stickyTabStyle = {
     "position": "fixed",
-    "top": screenSizeMode != IsDesktop ? "47px" : "0px",
+    "top": screenSizeMode !== IsDesktop ? "47px" : "0px",
     "left": "0px",
     "width": "100vw",
     "zIndex": 25,
@@ -50,7 +50,7 @@ const About = () => {
 
                 <div className="tabs-location">
                   <TabContainer isActive={0 === tabActive}>
-                    <IntroductionPanel />
+                    <ExperiencePanel />
                   </TabContainer >
                   <TabContainer isActive={1 === tabActive}>
                     <SkillPanel />
