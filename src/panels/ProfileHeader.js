@@ -1,9 +1,9 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCodeBranch, faUsers } from '@fortawesome/free-solid-svg-icons'
-import { faLinkedin, faGithub, faCodepen } from '@fortawesome/free-brands-svg-icons'
-import { selectedPrimaryColor } from '../util/color'
-import profileData from '../content/profile.json'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCodeBranch, faUsers } from '@fortawesome/free-solid-svg-icons';
+import { faLinkedin, faGithub, faCodepen } from '@fortawesome/free-brands-svg-icons';
+import { selectedPrimaryColor } from '../util/color';
+import profileData from '../content/profile.json';
 
 const ProfileHeader = () => {
     return <>
@@ -30,9 +30,9 @@ const ProfileHeader = () => {
                 </div>
                 <div className="separator"></div>
                 <div className="socials">
-                    <a href={profileData.links.linkedin} target="_blank"> <FontAwesomeIcon icon={faLinkedin} color={selectedPrimaryColor} /></a>
-                    <a href={profileData.links.github} target="_blank"> <FontAwesomeIcon icon={faGithub} color={selectedPrimaryColor} /></a>
-                    <a href={profileData.links.codepen} target="_blank"> <FontAwesomeIcon icon={faCodepen} color={selectedPrimaryColor} /></a>
+                    <a href={profileData.links.linkedin} target="_blank"  rel="noreferrer" > <FontAwesomeIcon icon={faLinkedin} color={selectedPrimaryColor} /></a>
+                    <a href={profileData.links.github} target="_blank"  rel="noreferrer" > <FontAwesomeIcon icon={faGithub} color={selectedPrimaryColor} /></a>
+                    <a href={profileData.links.codepen} target="_blank"  rel="noreferrer" > <FontAwesomeIcon icon={faCodepen} color={selectedPrimaryColor} /></a>
                 </div>
             </div>
         </div>

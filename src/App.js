@@ -46,8 +46,9 @@ const App = () => {
         <Route path="/" element={<AppRoute />}>
           <Route index element={<Home />} />
           <Route path="home" element={<Home />} />
+          <Route path="tech-blog" element={<Home />} />
           <Route path="about" element={<About />} />
-          <Route path="dashboard" element={<Dashboard />} />
+          <Route path="dashboard" element={<Dashboard />} />         
           <Route path="*" element={<NoMatch />} />
         </Route>
       </Routes>

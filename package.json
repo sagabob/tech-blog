@@ -1,6 +1,6 @@
 {
-  "homepage": "https://sagabob.github.io/my-tech-blog",
-  "name": "my-tech-blog",
+  "homepage": "https://sagabob.github.io/tech-blog",
+  "name": "tech-blog",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

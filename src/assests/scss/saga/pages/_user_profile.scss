@@ -9,7 +9,7 @@
         > img {
             display: block;
             margin: 0 auto;
-            max-width: 300px;
+            max-width: 300px;            
         }
 
         .avatar {
@@ -35,7 +35,7 @@
         max-width: 700px;
         margin: 0 auto;
         line-height: 1.5;
-        color: $dark-lite-text  !important;
+        color: $h-deep-blue !important;
         font-weight: 400;
     }
 
@@ -102,7 +102,7 @@
         }
 
         .profile-card-section {
-            padding-bottom: 10px;
+            padding-bottom: 20px;
 
             &:not(:last-child) {
                 margin-bottom: 20px;
@@ -125,8 +125,20 @@
                 }
             }
             .section-content {
+                
                 .bio-description {
-                    font-size: 1.1rem;
+                    font-size: 1.0rem;
+                    font-weight: 400;
+                    color: $h-deep-blue;
+                }
+                .bio-highlight{
+                    list-style-type: disc;
+                    font-size: 0.97rem;
+                    padding: 0.5rem 2.0rem;
+                    color: $h-deep-blue;
+                    li{
+                        margin-bottom: 0.5rem;
+                    }
                 }
 
                 .experience-wrapper {
@@ -139,9 +151,8 @@
                             display: block;
                             width: 50px;
                             min-width: 50px;
-                            height: 50px;
-                            border-radius: 50%;
-                            border: 1px solid darken($fade-grey, 4%);
+                            height: 50px;                          
+                            
                         }
 
                         .meta {
